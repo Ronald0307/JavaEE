@@ -1,0 +1,32 @@
+<!DOCTYPE html >
+<html lang=pt-BR>
+<head>
+<meta charset="utf-8">
+<title>Café da manhã</title>
+<link rel="icon" href="imagens/favicon.png">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<h1>Cadastrar pessoas</h1>
+	<form name="frmpessoas" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Digite o nome."
+					class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="cpf" placeholder="Digite o CPF."
+					class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="item"
+					placeholder="Digite algum item na lista." class="Caixa1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="Botao1"
+			onclick="validar()">
+	</form>
+	<script src="scripts/validador.js"></script>
+</body>
+</html>
